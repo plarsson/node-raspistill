@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "typings": "build/index",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "watch": "tsc --watch",
     "test": "istanbul cover node_modules/.bin/_mocha build/test",
